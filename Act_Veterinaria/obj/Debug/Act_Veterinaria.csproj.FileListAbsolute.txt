@@ -1,0 +1,75 @@
+E:\Gena\Facultad\Programacion\Programacion II\Proyectos\Act_Veterinaria\bin\Debug\Act_Veterinaria.exe.config
+E:\Gena\Facultad\Programacion\Programacion II\Proyectos\Act_Veterinaria\bin\Debug\Act_Veterinaria.exe
+E:\Gena\Facultad\Programacion\Programacion II\Proyectos\Act_Veterinaria\bin\Debug\Act_Veterinaria.pdb
+E:\Gena\Facultad\Programacion\Programacion II\Proyectos\Act_Veterinaria\obj\Debug\Act_Veterinaria.csproj.AssemblyReference.cache
+E:\Gena\Facultad\Programacion\Programacion II\Proyectos\Act_Veterinaria\obj\Debug\Act_Veterinaria.csproj.SuggestedBindingRedirects.cache
+E:\Gena\Facultad\Programacion\Programacion II\Proyectos\Act_Veterinaria\obj\Debug\Act_Veterinaria.Properties.Resources.resources
+E:\Gena\Facultad\Programacion\Programacion II\Proyectos\Act_Veterinaria\obj\Debug\Act_Veterinaria.csproj.GenerateResource.cache
+E:\Gena\Facultad\Programacion\Programacion II\Proyectos\Act_Veterinaria\obj\Debug\Act_Veterinaria.csproj.CoreCompileInputs.cache
+E:\Gena\Facultad\Programacion\Programacion II\Proyectos\Act_Veterinaria\obj\Debug\Act_Veterinaria.exe
+E:\Gena\Facultad\Programacion\Programacion II\Proyectos\Act_Veterinaria\obj\Debug\Act_Veterinaria.pdb
+E:\Gena\Facultad\Programacion\Programacion II\Repo Subir\Act_Veterinaria\bin\Debug\Act_Veterinaria.exe.config
+E:\Gena\Facultad\Programacion\Programacion II\Repo Subir\Act_Veterinaria\bin\Debug\Act_Veterinaria.exe
+E:\Gena\Facultad\Programacion\Programacion II\Repo Subir\Act_Veterinaria\bin\Debug\Act_Veterinaria.pdb
+E:\Gena\Facultad\Programacion\Programacion II\Repo Subir\Act_Veterinaria\obj\Debug\Act_Veterinaria.csproj.AssemblyReference.cache
+E:\Gena\Facultad\Programacion\Programacion II\Repo Subir\Act_Veterinaria\obj\Debug\Act_Veterinaria.csproj.SuggestedBindingRedirects.cache
+E:\Gena\Facultad\Programacion\Programacion II\Repo Subir\Act_Veterinaria\obj\Debug\Act_Veterinaria.Form2.resources
+E:\Gena\Facultad\Programacion\Programacion II\Repo Subir\Act_Veterinaria\obj\Debug\Act_Veterinaria.Properties.Resources.resources
+E:\Gena\Facultad\Programacion\Programacion II\Repo Subir\Act_Veterinaria\obj\Debug\Act_Veterinaria.csproj.GenerateResource.cache
+E:\Gena\Facultad\Programacion\Programacion II\Repo Subir\Act_Veterinaria\obj\Debug\Act_Veterinaria.csproj.CoreCompileInputs.cache
+E:\Gena\Facultad\Programacion\Programacion II\Repo Subir\Act_Veterinaria\obj\Debug\Act_Veterinaria.exe
+E:\Gena\Facultad\Programacion\Programacion II\Repo Subir\Act_Veterinaria\obj\Debug\Act_Veterinaria.pdb
+E:\Gena\Facultad\Programacion\Programacion II\Repo Subir\Act_Veterinaria\obj\Debug\Act_Veterinaria.Presentacion.FormAtenciones.resources
+E:\Gena\Facultad\Programacion\Programacion II\Repo Subir\Act_Veterinaria\obj\Debug\Act_Veterinaria.FormPrincipal.resources
+E:\Gena\Facultad\Programacion\Programacion II\Repo Subir\Act_Veterinaria\obj\Debug\Act_Veterinaria.Presentacion.FormBaja.resources
+E:\Gena\Facultad\Programacion\Programacion II\Repo Subir\Act_Veterinaria\bin\Debug\Microsoft.ReportViewer.Common.dll
+E:\Gena\Facultad\Programacion\Programacion II\Repo Subir\Act_Veterinaria\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+E:\Gena\Facultad\Programacion\Programacion II\Repo Subir\Act_Veterinaria\bin\Debug\Microsoft.ReportViewer.Design.dll
+E:\Gena\Facultad\Programacion\Programacion II\Repo Subir\Act_Veterinaria\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+E:\Gena\Facultad\Programacion\Programacion II\Repo Subir\Act_Veterinaria\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+E:\Gena\Facultad\Programacion\Programacion II\Repo Subir\Act_Veterinaria\bin\Debug\Microsoft.SqlServer.Types.dll
+E:\Gena\Facultad\Programacion\Programacion II\Repo Subir\Act_Veterinaria\bin\Debug\EnvDTE.dll
+E:\Gena\Facultad\Programacion\Programacion II\Repo Subir\Act_Veterinaria\bin\Debug\stdole.dll
+E:\Gena\Facultad\Programacion\Programacion II\Repo Subir\Act_Veterinaria\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+E:\Gena\Facultad\Programacion\Programacion II\Repo Subir\Act_Veterinaria\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+E:\Gena\Facultad\Programacion\Programacion II\Repo Subir\Act_Veterinaria\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+E:\Gena\Facultad\Programacion\Programacion II\Repo Subir\Act_Veterinaria\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+E:\Gena\Facultad\Programacion\Programacion II\Repo Subir\Act_Veterinaria\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+E:\Gena\Facultad\Programacion\Programacion II\Repo Subir\Act_Veterinaria\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+E:\Gena\Facultad\Programacion\Programacion II\Repo Subir\Act_Veterinaria\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+E:\Gena\Facultad\Programacion\Programacion II\Repo Subir\Act_Veterinaria\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+E:\Gena\Facultad\Programacion\Programacion II\Repo Subir\Act_Veterinaria\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+E:\Gena\Facultad\Programacion\Programacion II\Repo Subir\Act_Veterinaria\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+E:\Gena\Facultad\Programacion\Programacion II\Repo Subir\Act_Veterinaria\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Gena\Facultad\Programacion\Programacion II\Repo Subir\Act_Veterinaria\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Gena\Facultad\Programacion\Programacion II\Repo Subir\Act_Veterinaria\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Gena\Facultad\Programacion\Programacion II\Repo Subir\Act_Veterinaria\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Gena\Facultad\Programacion\Programacion II\Repo Subir\Act_Veterinaria\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Gena\Facultad\Programacion\Programacion II\Repo Subir\Act_Veterinaria\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Gena\Facultad\Programacion\Programacion II\Repo Subir\Act_Veterinaria\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Gena\Facultad\Programacion\Programacion II\Repo Subir\Act_Veterinaria\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Gena\Facultad\Programacion\Programacion II\Repo Subir\Act_Veterinaria\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Gena\Facultad\Programacion\Programacion II\Repo Subir\Act_Veterinaria\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Gena\Facultad\Programacion\Programacion II\Repo Subir\Act_Veterinaria\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+E:\Gena\Facultad\Programacion\Programacion II\Repo Subir\Act_Veterinaria\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+E:\Gena\Facultad\Programacion\Programacion II\Repo Subir\Act_Veterinaria\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+E:\Gena\Facultad\Programacion\Programacion II\Repo Subir\Act_Veterinaria\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+E:\Gena\Facultad\Programacion\Programacion II\Repo Subir\Act_Veterinaria\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+E:\Gena\Facultad\Programacion\Programacion II\Repo Subir\Act_Veterinaria\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+E:\Gena\Facultad\Programacion\Programacion II\Repo Subir\Act_Veterinaria\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+E:\Gena\Facultad\Programacion\Programacion II\Repo Subir\Act_Veterinaria\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+E:\Gena\Facultad\Programacion\Programacion II\Repo Subir\Act_Veterinaria\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+E:\Gena\Facultad\Programacion\Programacion II\Repo Subir\Act_Veterinaria\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+E:\Gena\Facultad\Programacion\Programacion II\Repo Subir\Act_Veterinaria\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+E:\Gena\Facultad\Programacion\Programacion II\Repo Subir\Act_Veterinaria\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+E:\Gena\Facultad\Programacion\Programacion II\Repo Subir\Act_Veterinaria\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+E:\Gena\Facultad\Programacion\Programacion II\Repo Subir\Act_Veterinaria\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+E:\Gena\Facultad\Programacion\Programacion II\Repo Subir\Act_Veterinaria\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+E:\Gena\Facultad\Programacion\Programacion II\Repo Subir\Act_Veterinaria\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+E:\Gena\Facultad\Programacion\Programacion II\Repo Subir\Act_Veterinaria\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+E:\Gena\Facultad\Programacion\Programacion II\Repo Subir\Act_Veterinaria\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+E:\Gena\Facultad\Programacion\Programacion II\Repo Subir\Act_Veterinaria\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+E:\Gena\Facultad\Programacion\Programacion II\Repo Subir\Act_Veterinaria\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+E:\Gena\Facultad\Programacion\Programacion II\Repo Subir\Act_Veterinaria\obj\Debug\Act_Veterinaria.Presentacion.FormReporte.resources
+E:\Gena\Facultad\Programacion\Programacion II\Repo Subir\Act_Veterinaria\obj\Debug\Act_Veterinaria.csproj.CopyComplete
+E:\Gena\Facultad\Programacion\Programacion II\Repo Subir\Act_Veterinaria\obj\Debug\Act_Veterinaria.Presentacion.FormReporteCantidad.resources

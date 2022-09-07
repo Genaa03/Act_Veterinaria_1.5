@@ -1,0 +1,209 @@
+create database "Vet_1.3"
+use [Vet_1.3]
+
+Create table Tipos(
+    id_tipo int identity(1,1),
+    nombre varchar(20),
+    constraint pk_tipos primary key (id_tipo)
+)
+create table Clientes(
+    cod_cliente int identity(1,1),
+    nombre varchar(20),
+    sexo int,
+
+    constraint pk_clientes primary key(cod_cliente)
+)
+create table Mascotas(
+    id_mascota int identity(1,1),
+    cod_cliente int,
+    nombre varchar(20),
+    edad int,
+    id_tipo int,
+
+    constraint pk_mascotas primary key (id_mascota),
+    constraint fk_mascotas_clientes foreign key(cod_cliente) references Clientes(cod_cliente),
+    constraint fk_mascotas_tipos foreign key(id_tipo) references Tipos(id_tipo),
+)
+create table Atenciones(
+    nro_atencion int identity(1,1),
+    id_mascota int,
+    fecha datetime,
+    descripcion varchar(100),
+    importe money,
+
+    constraint pk_atenciones primary key (nro_atencion),
+    constraint fk_atenciones_mascotas foreign key(id_mascota) references Mascotas(id_mascota),
+)
+
+create procedure Mayores_A
+    @edad int
+as
+    Select * from Mascotas
+    where edad>@edad
+
+SET DATEFORMAT dmy
+
+-- CARGA DE DATOS
+
+insert into Clientes values ('Carlos Perez',1)
+insert into Clientes values ('Susana Lopez',2)
+insert into Clientes values ('Lionel Messi',1)
+insert into Clientes values ('Nicolas Otamendi',1)
+
+insert into Tipos values ('Perro')
+insert into Tipos values ('Gato')
+insert into Tipos values ('Araña')
+insert into Tipos values ('Iguana')
+    
+insert into Mascotas values (3,'Hulk',6,1)
+insert into Mascotas values (1,'Fatiga',10,1)
+insert into Mascotas values (2,'Engaña',2,3)
+insert into Mascotas values (2,'Aragog',100,3)
+insert into Mascotas values (4,'Mishi',5,2)
+
+INSERT INTO Atenciones (id_mascota, fecha, descripcion, importe) VALUES (1, '20/08/2020', 'Castracion y aplicacion de 2 vacunas', 5000)
+INSERT INTO Atenciones (id_mascota, fecha, descripcion, importe) VALUES (1, '15/02/2016', 'Primera atencion, aplicacion de vacunas para recien nacidos', 1500)
+INSERT INTO Atenciones (id_mascota, fecha, descripcion, importe) VALUES (2, '10/10/2014', 'Aplicacion de un decadron por la picadura de una abeja', 2000)
+INSERT INTO Atenciones (id_mascota, fecha, descripcion, importe) VALUES (2, '20/08/2020', 'Aplicacion de 1 vacuna', 4500)
+INSERT INTO Atenciones (id_mascota, fecha, descripcion, importe) VALUES (3, '25/12/2021', 'Castracion y aplicacion de 2 vacunas', 2500)
+INSERT INTO Atenciones (id_mascota, fecha, descripcion, importe) VALUES (3, '13/05/2022', 'Operacion de cataratas', 15000)
+INSERT INTO Atenciones (id_mascota, fecha, descripcion, importe) VALUES (4, '02/06/1979', 'Operacion de fractura sobre una pata', 10000)
+INSERT INTO Atenciones (id_mascota, fecha, descripcion, importe) VALUES (4, '03/01/1999', 'Aplicacion de 3 vacunas', 2800)
+INSERT INTO Atenciones (id_mascota, fecha, descripcion, importe) VALUES (5, '20/08/2011', 'Aplicacion de 1 vacuna', 2500)
+INSERT INTO Atenciones (id_mascota, fecha, descripcion, importe) VALUES (5, '20/08/2009', 'Dosis de pastillas para problema gastrico', 4000)
+
+
+
+-- PROCESOS ALMACENADOS
+
+CREATE PROC SP_LISTA_CLIENTES
+as
+    SELECT nombre
+    FROM Clientes
+    WHERE Activo = 1
+
+CREATE procedure SP_LISTA_MASCOTAS
+    @id int
+as
+    SELECT m.nombre as 'Nombre', t.nombre 'Tipo', m.edad 'Edad'
+    FROM Mascotas m join Tipos t on t.id_tipo = m.id_tipo
+    WHERE @id = cod_cliente
+
+
+CREATE procedure SP_LISTA_ATENCIONES
+    @id int
+as
+    SELECT m.nombre as 'Nombre', a.fecha 'Fecha', a.descripcion 'Descripcion', a.importe 'Importe (Pesos)'
+    FROM Mascotas m JOIN Atenciones A on m.id_mascota = A.id_mascota
+    WHERE @id = a.id_mascota
+
+
+
+create procedure SP_OBTENER_ID
+    @nombre varchar(25)
+as
+    select cod_cliente
+    from Clientes
+    where @nombre = nombre
+
+create procedure SP_OBTENER_ID_M
+    @nombre varchar(25)
+as
+    select id_mascota
+    from Mascotas
+    where @nombre = nombre
+
+CREATE PROC SP_LISTA_CLIENTES_BAJA
+as
+    SELECT nombre
+    FROM Clientes
+    WHERE Activo = 'false'
+
+
+CREATE PROCEDURE SP_OBTENER_TIPOS
+as
+    select *
+    from Tipos
+    order by nombre
+
+CREATE PROCEDURE [dbo].[SP_PROXIMO_COD]
+@next int OUTPUT
+AS
+BEGIN
+	SET @next = (SELECT MAX(cod_cliente)+1  FROM Clientes);
+END
+
+CREATE PROCEDURE [dbo].[SP_PROXIMO_ID_ATENCION]
+@next int OUTPUT
+AS
+BEGIN
+	SET @next = (SELECT MAX(nro_atencion)+1  FROM Atenciones);
+END
+
+CREATE PROCEDURE [dbo].[SP_PROXIMO_ID_MASCOTA]
+@next int OUTPUT
+AS
+BEGIN
+	SET @next = (SELECT MAX(id_mascota)+1  FROM Mascotas);
+END
+
+CREATE PROC SP_ALTA_CLIENTE
+    @nombre varchar(30)
+as
+    UPDATE Clientes
+    SET Activo = 1
+    WHERE @nombre = nombre
+
+CREATE PROC SP_ATENCIONES_FECHA
+    @fecha_desde datetime,
+    @fecha_hasta datetime
+as
+    SELECT a.nro_atencion 'NroAtencion', M.nombre 'Mascota', a.fecha 'Fecha', a.descripcion 'Descripcion', a.importe 'Importe'
+    FROM Atenciones a JOIN Mascotas M on M.id_mascota = a.id_mascota
+    where fecha between @fecha_desde and @fecha_hasta
+
+CREATE PROC SP_BAJA_CLIENTE
+    @nombre varchar(30)
+as
+    UPDATE Clientes
+    SET Activo = 0
+    WHERE @nombre = nombre
+
+CREATE PROC SP_CANTIDAD_ATENCIONES
+as
+SELECT m.nombre 'Nombre', T.nombre 'Tipo', COUNT(nro_atencion) 'CantidadAtenciones', SUM(importe) 'ImporteTotal'
+FROM Atenciones a join Mascotas m on m.id_mascota = a.id_mascota
+                    join Tipos T on m.id_tipo = T.id_tipo
+Group By  m.nombre ,T.nombre
+
+CREATE PROC SP_COMBO_MASCOTAS
+as
+    select c.nombre 'Cliente',m.id_mascota,t.nombre + ' - ' + m.nombre 'Mascota'
+    from Mascotas m join Tipos t on m.id_tipo = t.id_tipo
+                    join Clientes c on m.cod_cliente = c.cod_cliente
+    order by Mascota
+
+create proc SP_INSERTAR_ATENCION
+@id_mascota int,
+@fecha datetime,
+@descripcion varchar(100),
+@importe money
+as
+    INSERT INTO Atenciones(id_mascota, fecha, descripcion, importe)
+    VALUES (@id_mascota,@fecha,@descripcion,@importe)
+
+create proc SP_INSERTAR_CLIENTE
+@nombre varchar(40),
+@sexo bit
+as
+    INSERT INTO Clientes(nombre, sexo, Activo)
+    VALUES (@nombre,@sexo,'true')
+
+create proc SP_INSERTAR_MASCOTA
+@cod_cliente int,
+@nombre varchar(20),
+@edad int,
+@id_tipo int
+as
+    INSERT INTO Mascotas(cod_cliente, nombre, edad, id_tipo, Activo)
+    VALUES (@cod_cliente,@nombre,@edad,@id_tipo,1)
